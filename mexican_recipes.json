@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Tacos",
+        "image": "images/recipes/mexican/m1.png",
+        "description": "A tortilla filled with various ingredients, such as meat (usually beef, pork, or chicken), onions, fresh cilantro, guacamole, and spicy sauce.",
+        "preparation_time": "Preparation time: 2h 30min"
+    },
+    {
+        "name": "Quesadillas",
+        "image": "images/recipes/mexican/m2.png",
+        "description": "A tortilla filled with cheese (and sometimes meat, beans, or other ingredients), fried or baked.",
+        "preparation_time": "Preparation time: 1h 30min"
+    },
+    {
+        "name": "Pozole",
+        "image": "images/recipes/mexican/m3.png",
+        "description": "A traditional Mexican soup made with hominy, meat (usually chicken or pork), and spices.",
+        "preparation_time": "Preparation time: 1h 30min"
+    }
+]

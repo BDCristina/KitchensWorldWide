@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian Cuisine</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Utilizăm clasa navbar pentru antet (header) -->
+    <div id="navbarContainer"></div>
+    <script src="js/navbar.js"></script>
+
+    <div class="container mt-5">
+        <div class="row-it">
+            <div class="col">
+                <img src="images/cuisine/italian.png" class="img-fluid">
+            </div>
+            <div class="col" style="padding-top: 50px; padding-bottom: 20px;padding-left: 30px; align-items: center;">
+                <div class="row">
+                    <h5 class="card-title" id="cuisine-name"></h5>
+                    <p class="card-text" id="cuisine-description" style="padding-top: 50px; padding-bottom: 20px;"></p>
+                    <a href="#">
+                        <button class="btn btn-primary-bt mt-3" onclick="scrollToSection('recipes')">Recipes</button>
+                    </a>
+                </div> 
+            </div>   
+        </div>
+        <div id="recipes">
+            <div style="height: 100vh; align-items: center;">
+                <h2 class="sub-title">Here are the latest recipes!</h2>
+            <div class="row" style="height: 100vh;">
+            <!-- Prima secțiune -->
+                <div class="col-md-12 mb-4">
+                    <div class="row" id="section1"></div>
+                </div>
+            </div>
+            </div>
+        <!-- Alte secțiuni similare vor fi adăugate aici -->
+
+
+        </div>
+        
+    </div>
+    <footer class="footer text-center text-lg-start" style="background-color: black; color: white;">
+        <!-- Footer content -->
+        <p>&copy; 2024 KitchensWorldWide. All rights reserved.</p>
+    </footer>
+
+    <!-- Încarcă aici fișierele JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="js/italian.js"></script>
+</body>
+</html>

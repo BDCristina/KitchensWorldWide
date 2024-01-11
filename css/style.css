@@ -1,0 +1,159 @@
+body{
+    background-color: black; /* Setează culoarea de fundal a întregii pagini la negru */
+    color: white; /* Schimbă culoarea textului la alb pentru a fi mai vizibil pe fundalul negru */
+}
+
+.banner {
+    background-color: black; /* Setează culoarea de fundal a întregii pagini la negru */
+    width: 100%; /* Ocupă întreaga lățime a paginii */
+    color: white;
+    left: 0;
+    padding-top: 150px;
+}
+.container-fluid{
+    width: 100%;
+    height: 100%;
+    max-width: 100%; /* Asigură că nu depășește lățimea ecranului */
+    padding-left: 50px; /* Adaugă un spațiu între conținut și marginile laterale */
+    padding-right: 20px; 
+    padding-top: 10px;
+
+}
+.navbar-expand-lg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    padding: 0.75rem 5rem;
+    background-color: black;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    display: inline-block;
+}
+
+.navbar-brand > img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.navbar-collapse {
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar-collapse > a {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-collapse > a:last-child {
+    margin-right: 0;
+}
+
+.navbar-collapse > a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 8rem; /* Asigură un spațiu de 8rem între bara de navigare și conținut */
+    padding: 20px;
+}
+
+@media (max-width: 580px) {
+    .navbar-expand-lg {
+        padding: 0.75rem 2.5rem;
+    }
+
+    .navbar-collapse > a {
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+.heading-title{
+    padding-bottom: 50px;
+}
+
+.btn-primary-bt{
+    border-radius: 50px;
+    padding: 10px 40px;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.btn-primary-bt:hover{
+    font-weight: bold;
+    background-color: black;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    color: white;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Stil pentru bara de progres */
+.progress {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: #ccc; /* Culoarea fundalului */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #745237; /* Culoarea barei de progres */
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: white; /* Culoarea textului */
+    font-weight: bold;
+}
+
+#cuisine-name{
+    position:relative; 
+    z-index:1; 
+    text-align: left;
+    font-size: 50px;
+
+}
+
+.row-it{
+    display:flex; 
+    padding: 2rem 0.2rem 10vh;
+    color: #fff;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.row-it::before{ content: ""; position:absolute; top:0; left:0; width:100%; height: 80%;}
+
+.sub-title{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.carousel-item img {
+    width: 100%; /* sau orice altă valoare dorită */
+    margin: auto; /* pentru a centra imaginea în interiorul caruselului */
+}

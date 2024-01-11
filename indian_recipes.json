@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Masala Dosa",
+        "image": "images/recipes/indian/in1.png",
+        "description": "A South Indian dish consisting of a thin crepe made from rice and lentils, filled with a paste of potatoes, onions, and spices.",
+        "preparation_time": "Preparation time: 1h 30min"
+    },
+    {
+        "name": "Chicken Tikka Masala",
+        "image": "images/recipes/indian/in2.png",
+        "description": "Chunks of chicken marinated in a yogurt and spice paste, then cooked in a creamy sauce with tomatoes and herbs.",
+        "preparation_time": "Preparation time: 1h 30min"
+    },
+    {
+        "name": "Rogan Josh",
+        "image": "images/recipes/indian/in3.png",
+        "description": "A curry dish with lamb, cooked in a flavorful sauce of tomatoes, herbs, and spices.",
+        "preparation_time": "Preparation time: 1h 30min"
+    }
+]

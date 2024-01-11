@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Greek Salad",
+        "image": "images/recipes/greek/g1.png",
+        "description": "A layered dish, with layers of eggplants, minced meat (usually lamb or beef), potatoes, and béchamel sauce.",
+        "preparation_time": "Preparation time: 30min"
+    },
+    {
+        "name": "Moussaka",
+        "image": "images/recipes/greek/g2.png",
+        "description": "Chunks of chicken marinated in a yogurt and spice paste, then cooked in a creamy sauce with tomatoes and herbs.",
+        "preparation_time": "Preparation time: 1h 30min"
+    },
+    {
+        "name": "Dolmades",
+        "image": "images/recipes/greek/g3.png",
+        "description": "Grape leaves stuffed with rice, pine nuts, and herbs, often served with a yogurt sauce.",
+        "preparation_time": "Preparation time: 1h 30min"
+    }
+]
