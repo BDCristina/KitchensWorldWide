@@ -2,6 +2,8 @@
 
 KitchensWorldWide is a web application that showcases various cuisines and recipes from around the world. It allows users to explore different culinary traditions and discover delicious recipes.
 
+![home_reports](images/home_page.png)
+
 ## Features
 
 - **Dynamic Content:** The application dynamically loads data about cuisines and recipes from JSON files.
