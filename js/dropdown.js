@@ -1,3 +1,5 @@
+//functionality for managing a dropdown menu that contains options for various cuisines
+
 document.addEventListener('DOMContentLoaded', function () {
     var dropdownToggle = document.getElementById('cuisineDropdownBtn');
     var dropdownMenu = document.querySelector('.dropdown-menu');
@@ -28,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
     exploreButton.addEventListener('click', function () {
         if (selectedCuisine) {
             var cuisineUrl = selectedCuisine.toLowerCase().replace(' ', '_') + '.html';
-            window.location.href = cuisineUrl;
+            window.location.href = 'cuisines/' + cuisineUrl;
         } else {
             console.log('Select a cuisine first!');
         }

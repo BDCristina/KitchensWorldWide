@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Pizza",
+        "image": "../images/recipes/italian/it1.png",
+        "description": "A classic pizza with tomato sauce, mozzarella, basil, and olive oil.",
+        "preparation_time": "Preparation time: 1h 30min",
+        "cuisine_name": "Italian Cuisine"
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "image": "../images/recipes/italian/it2.png",
+        "description": "A meat sauce (usually a mixture of beef and pork) with tomatoes, served over spaghetti.",
+        "preparation_time": "Preparation time: 30min",
+        "cuisine_name": "Italian Cuisine"
+    },
+    {
+        "name": "Lasagna",
+        "image": "../images/recipes/italian/it3.png",
+        "description": "Layers of lasagna noodles interlaced with meat sauce, béchamel, and cheese, baked in the oven.",
+        "preparation_time": "Preparation time: 2h 30min",
+        "cuisine_name": "Italian Cuisine"
+    }
+]
